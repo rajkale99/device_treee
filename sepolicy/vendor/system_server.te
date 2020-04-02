@@ -2,3 +2,8 @@ allow system_server sysfs:file { getattr };
 allow system_server vendor_default_prop:file { read open getattr };
 allow system_server sysfs:file { getattr open read write };
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+# Allow system_server to set persist_camera_prop
+get_prop(system_server, vendor_camera_prop)
+get_prop(system_server, persist_camera_prop)
+
