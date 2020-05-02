@@ -9,3 +9,5 @@ allow init bt_firmware_file:filesystem getattr;
 allow init firmware_file:filesystem getattr;
 allow init hwservicemanager:binder transfer;
 allow init hal_display_postproc_hwservice:hwservice_manager { find };
+allow init sysfs_kcal:file w_file_perms;
+

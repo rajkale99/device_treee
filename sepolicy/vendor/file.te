@@ -13,3 +13,7 @@ type persist_camera_file, file_type;
 # Devinfo
 type proc_devinfo, fs_type, proc_type;
 type sysfs_device_info, sysfs_type, fs_type;
+
+# kcal
+type sysfs_kcal, fs_type, sysfs_type;
+

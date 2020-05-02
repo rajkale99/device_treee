@@ -23,6 +23,9 @@
 /sys/kernel/gpu/gpu_clock                      u:object_r:sysfs_device_info:s0
 /sys/kernel/gpu/gpu_busy                       u:object_r:sysfs_device_info:s0
 
+# Kcal
+/sys/module/msm_drm/parameters(/.*)?					u:object_r:sysfs_kcal:s0
+
 # Sensors
 /persist/sensors(/.*)?          u:object_r:sensors_persist_file:s0
 
