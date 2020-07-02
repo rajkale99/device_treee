@@ -720,6 +720,20 @@ vendor/lib64/libsdedrm.so|1ace45e626ec39636cdc1ed419c9233aef6338c9
 -vendor/lib64/libsdm-disp-vndapis.so|44665c56bb9e89cc55b641e00fced92ddfc96712
 vendor/lib64/libsdmextension.so|a3b4fed84b9766c750e1378b737a93985402b696
 
+# Display
+vendor/lib/libdisplayqos.so
+vendor/lib/libsdedrm.so
+-vendor/lib/libsdm-disp-vndapis.so
+vendor/lib/libsdmextension.so
+vendor/lib64/libdisplayqos.so
+vendor/lib64/libsdedrm.so
+-vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib/libsdmcore.so
+vendor/lib64/libsdmcore.so
+vendor/lib/hw/hwcomposer.sdm710.so
+vendor/lib64/hw/hwcomposer.sdm710.so
+
 # Display calibration data
 vendor/etc/OPPO_OLED_AD_calib.cfg
 vendor/etc/qdcm_calib_data_oppo18041samsung_ams653tk01_1080_2340_cmd_mode_dsi_panel.xml
