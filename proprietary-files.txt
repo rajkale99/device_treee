@@ -1201,14 +1201,6 @@ vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so
 vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
 
 # Perf - from Nokia/Phoenix_00WW/PNX_sprout:10/QKQ1.190725.002/00WW_4_15B:user/release-keys
--framework/QPerformance.jar|557d4bb4e6009190a9a9df65c4c1fb0c37c2730a
--framework/UxPerformance.jar|13c626f1a42fc084b64447460417afa1091f0c0f
-product/lib/vendor.qti.hardware.perf@2.0.so|266e111e402d29f3713c656df3dc6678cd1c5d7d
-product/lib64/vendor.qti.hardware.perf@2.0.so|d4569c43c32a2ec851e45b6084fc7e08dd89f0ca
-lib/libqti_performance.so|5060214a293a6949c92acaf19d6e1adef12dba10
-lib/libqti-perfd-client_system.so|cd36868f3f9eed8dca5a661f7ebdff8ccfc4b401
-lib64/libqti_performance.so|5f719089c377f77a62ca40647450b36c2b710773
-lib64/libqti-perfd-client_system.so|cc52dfe74158017838ca1e4881bb0c3628423ec9
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|ec54271b7fe6e60c297bcb668a3466cd8a666bb4
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|0101a3294311c2988060a00f7b25d8abf2f428f9
 vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
