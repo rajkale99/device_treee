@@ -7,5 +7,7 @@ allow priv_app firmware_file:filesystem getattr;
 allow priv_app proc_interrupts:file open;
 allow priv_app proc_modules:file open;
 allow priv_app sysfs_android_usb:file open;
+allow priv_app mnt_vendor_file:dir search;
 
 get_prop(priv_app, vendor_camera_prop);
+get_prop(priv_app, vendor_default_prop);
