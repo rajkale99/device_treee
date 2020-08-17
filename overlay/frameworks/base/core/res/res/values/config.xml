@@ -597,13 +597,6 @@
        <item>com.kharame.kharameparts.KeyHandler</item>
     </string-array>
 
-    <!-- Sets the paths that are needed for SystemInfo-->
-    <string name="config_cpu_temp_path" translatable="false">/sys/class/thermal/thermal_zone4/temp</string>
-    <string name="config_battery_temp_path" translatable="false">sys/class/power_supply/battery/temp</string>
-    <string name="config_gpu_clock_path" translatable="false">/sys/kernel/gpu/gpu_clock</string>
-    <string name="config_gpu_busy_path" translatable="false">/sys/kernel/gpu/gpu_busy</string>
-    <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
-
     <!-- Whether Device support LiveDisplay or not -->
     <bool name="config_liveDisplayAvailable">true</bool>
 
@@ -615,5 +608,37 @@
 
     <!-- Whether device has vooc charging support -->
     <bool name="config_hasVoocCharger">true</bool>
+    
+    <!-- Whether the device supports Smart Pixels --> 
+    <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
+
+    <!-- Enable face auth when swiping security view  
+     for popup cameras-->
+    <bool name="config_faceAuthOnSecurityView">true</bool>
+
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+
+    <!-- Whether device has Dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
+
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">true</bool>
+    <!-- Default setting for refresh rate
+    0 = Auto
+    1 = 60HZ
+    2 = 90Hz -->
+    <integer name="config_defaultVariableRefreshRateSetting">2</integer>
+
+    <!--Systeminfo for quick settings header -->
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone4/temp</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
 
 </resources>
