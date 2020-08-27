@@ -11,3 +11,6 @@ allow system_app sysfs_battery_supply:file { getattr };
 
 get_prop(system_app, vendor_camera_prop);
 get_prop(system_app, vendor_default_prop);
+allow system_app proc_touchpanel:dir { search };
+allow system_app proc_touchpanel:file { write getattr open read };
+
