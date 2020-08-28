@@ -479,3 +479,7 @@ on boot
 # Permissions for gesture enable
 	chown system system /proc/touchpanel/gesture_enable
     chmod 0660 /proc/touchpanel/gesture_enable
+
+# Permissions for vibration controller
+	chown system system /sys/class/leds/vibrator/vmax_mv
+    chmod 0660 /sys/class/leds/vibrator/vmax_mv
