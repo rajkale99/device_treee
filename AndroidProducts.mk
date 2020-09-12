@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_RMX1971.mk
+    $(LOCAL_DIR)/legion_RMX1971.mk

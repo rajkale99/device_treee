@@ -155,3 +155,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.use_color_management=true \
     ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.maintainer.name=LuckyVii
+
+# Cpu
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.processor.model=Snapdragon712
