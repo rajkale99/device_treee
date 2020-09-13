@@ -1185,6 +1185,11 @@ vendor/lib64/libvpplibrary.so|4c9974eb244c43518465fff7a4bb6c064a339767
 vendor/lib64/libvpptestutils.so|01e4fffd18684c08963313d439b9166b5b309aa7
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so|e6fc7cae3215ca39745b5e85d937a7fafca9ed5f
 
+# Media OMX - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+-vendor/lib/libMpeg4SwEncoder.so|4724c498d1949dbcd19d73b8ef7279d49f09b0d9
+-vendor/lib/libOmxSwVdec.so|30a6eeebd47fbe17aecc92af7fd3dee8848e8bc1
+-vendor/lib/libOmxSwVencMpeg4.so|eda2bef01841815a7a165ea2280c88cf0e080045
+
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
