@@ -1276,6 +1276,12 @@ vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/vendor.qti.hardware.vpp@1.3.so
 
+# Media - from coral - coral-user-11-RP1A.200720.009-6720564-release-keys
+vendor/lib/libmedia_ecoservice.so
+vendor/lib/libqcodec2.so
+vendor/lib64/libmedia_ecoservice.so
+vendor/lib64/libqcodec2.so
+
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
