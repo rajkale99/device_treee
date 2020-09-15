@@ -1,1 +1,0 @@
-allow hal_soter_qti mnt_vendor_file:dir { getattr search };

@@ -1,1 +1,0 @@
-allow mm-pp-daemon mnt_vendor_file:dir { getattr };

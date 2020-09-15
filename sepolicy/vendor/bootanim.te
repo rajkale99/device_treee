@@ -1,2 +1,0 @@
-allow bootanim sysfs_kgsl:dir { search };
-allow bootanim vendor_audio_prop:file { read open getattr };
