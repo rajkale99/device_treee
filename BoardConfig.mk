@@ -204,5 +204,14 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Enable System As Root even for non-A/B
+# BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+ifeq ($(BOARD_AVB_ENABLE), true)
+   BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
+   BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
+   BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
+   BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
+endif
+
 # Inherit from the proprietary version
 -include vendor/realme/RMX1971/BoardConfigVendor.mk
