@@ -31,9 +31,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom/display-caf-sdm845 \
-    hardware/qcom/audio-caf-sdm845 \
-    hardware/qcom/media-caf-sdm845
+    hardware/qcom-caf/sdm845/display \
+    hardware/qcom-caf/sdm845/audio \
+    hardware/qcom-caf/sdm845/media
 
 # Permissions
 PRODUCT_COPY_FILES += \
