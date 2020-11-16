@@ -1,3 +1,3 @@
-ifeq ($(WITH_GAPPS), true)
-include vendor/gapps/common/common-vendor.mk
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+include vendor/gapps/gapps.mk
 endif
