@@ -20,7 +20,7 @@ LEGION_BUILD_DATE := $(shell date +%Y%m%d)
 TARGET_PRODUCT_SHORT := $(subst legion_,,$(LEGION_BUILD))
 
 # ZIP TYPE
-ifeq ($(WITH_GAPPS), true)
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
 LEGION_BUILD_ZIP_TYPE := Gapps
 else
 LEGION_BUILD_ZIP_TYPE := Vanilla
