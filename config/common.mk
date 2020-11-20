@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     OmniJaws
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # Extra tools in Legion
 PRODUCT_PACKAGES += \
     7z \
