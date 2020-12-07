@@ -25,6 +25,6 @@
     <string name="legion_chipset_type_summary">Snap720G</string>
      <string name="legion_gpu_summary">Adreno618</string>
      <string name="legion_camera_mp_summary">48/64</string>
-     <string name="legion_camera_mp_summary">IPS 6.67</string>
+     <string name="legion_screen_type_summary">IPS 6.67</string>
 
 </resources>
