@@ -16,7 +16,7 @@ ANDROID_VERSION := 11.0
 LEGIONVERSION := v3.4
 
 LEGION_BUILD_TYPE ?= Unofficial
-LEGION_BUILD_DATE := $(shell date +%Y%m%d)
+LEGION_BUILD_DATE := $(shell date +%Y%m%d-%H%M)
 TARGET_PRODUCT_SHORT := $(subst legion_,,$(LEGION_BUILD))
 
 # ZIP TYPE
