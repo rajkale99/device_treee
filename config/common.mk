@@ -200,7 +200,11 @@ DEVICE_PACKAGE_OVERLAYS += vendor/legion/overlay/common
 -include vendor/legion/bootanimation/bootanimation.mk
 
 # Gapps
--include vendor/legion/config/gapps.mk
+ifeq ($(LEGION_BUILD_TYPE), OFFICIAL)
+ifeq ($(WITH_GAPPS), true)
+-include vendor/gapps/common/common-vendor.mk
+endif
+endif
 
 # Include Vendor Parts
 -include vendor/LegionParts/parts.mk
