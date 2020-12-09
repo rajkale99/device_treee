@@ -71,28 +71,28 @@ void load_device_properties() {
         if (region == "Global_TWO") {
             set_device_props(
                     "Redmi/curtana_global/curtana:10/QKQ1.191215.002/V12.0.1.0.QJWMIXM:user/release-keys",
-                    "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys",
+                    "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props(
                     "Redmi/curtana/curtana:10/QKQ1.191215.002/V12.0.1.0.QJWINXM:user/release-keys",
-                    "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys",
+                    "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys",
                     "Redmi", "curtana", "Redmi Note 9 Pro");
         }
     } else if (hwname == "excalibur") {
         set_device_props(
                 "Redmi/excalibur_in/excalibur:10/QKQ1.191215.002/V12.0.1.0.QJXINXM:user/release-keys",
-                "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys",
+                "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys",
                 "Redmi", "excalibur", "Redmi Note 9 Pro Max");
     } else if (hwname == "gram") {
         set_device_props(
                 "POCO/gram_in/gram:10/QKQ1.191215.002/V12.0.1.0.QJPINXM:user/release-keys",
-                "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys",
+                "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys",
                 "POCO", "gram", "POCO M2 Pro");
     } else if (hwname == "joyeuse") {
         set_device_props(
                 "Redmi/joyeuse_global/joyeuse:10/QKQ1.191215.002/V12.0.1.0.QJZMIXM:user/release-keys",
-                "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys",
+                "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
     }
 }
