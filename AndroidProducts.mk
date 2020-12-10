@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The Project-Xtended
+# Copyright (C) 2020 The Project-LegionOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_miatoll.mk
+    $(LOCAL_DIR)/legion_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_miatoll-user \
-    xtended_miatoll-userdebug \
-    xtended_miatoll-eng
+    legion_miatoll-user \
+    legion_miatoll-userdebug \
+    legion_miatoll-eng
