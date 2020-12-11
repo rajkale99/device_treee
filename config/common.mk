@@ -94,8 +94,10 @@ PRODUCT_PACKAGES += \
     OmniJaws
 
 # Updater
+ifeq ($(LEGION_BUILD_TYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
     Updater
+endif
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
